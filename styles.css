@@ -29,6 +29,7 @@
 .info-container,
 .quote-container {
   width: 800px;
+  flex-shrink: 0;
 }
 
 .header-top {
@@ -83,19 +84,19 @@ ul {
 }
 
 a,
-.header-text p {
+.header-text p,
+.cta-text p {
   text-decoration: none;
   color: #e5e7eb;
   font-size: 18px;
 }
 
 button {
-  display: flex;
-  margin-right: auto;
+  width: 125px;
   padding: 7px 32px;
   background-color: #3882f6;
   border-style: none;
-  border-radius: 5px;
+  border-radius: 8px;
   color: #e5e7eb;
   font-size: 16px;
   font-weight: bold;
@@ -151,8 +152,7 @@ button {
 .quote-container {
   display: flex;
   flex-direction: column;
-  margin: 100px;
-  padding: 0px 5px;
+  margin: 110px;
 }
 
 .quote-author {
@@ -166,4 +166,34 @@ button {
   font-weight: 300;
   font-style: italic;
   color: #1f2937;
+}
+
+/* section 4 styling */
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  margin: 100px;
+  background-color: #3882f6;
+  padding: 50px 100px;
+  border-radius: 10px;
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 24px;
+}
+
+.cta-container button {
+  border: 2px solid white;
 }
