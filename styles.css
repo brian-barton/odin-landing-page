@@ -92,7 +92,6 @@ a,
 }
 
 button {
-  width: 125px;
   padding: 7px 32px;
   background-color: #3882f6;
   border-style: none;
@@ -100,8 +99,7 @@ button {
   color: #e5e7eb;
   font-size: 16px;
   font-weight: bold;
-  display: flex;
-  flex-wrap: nowrap;
+  max-width: fit-content;
 }
 
 /* section 2 styling  */
