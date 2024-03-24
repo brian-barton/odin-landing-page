@@ -100,6 +100,8 @@ button {
   color: #e5e7eb;
   font-size: 16px;
   font-weight: bold;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 /* section 2 styling  */
