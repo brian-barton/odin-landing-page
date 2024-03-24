@@ -153,6 +153,7 @@ button {
   display: flex;
   flex-direction: column;
   margin: 110px;
+  flex-shrink: 0;
 }
 
 .quote-author {
@@ -174,14 +175,15 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 100px;
 }
 
 .cta-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-shrink: 0;
   width: 1000px;
-  margin: 100px;
   background-color: #3882f6;
   padding: 50px 100px;
   border-radius: 10px;
@@ -196,4 +198,13 @@ button {
 
 .cta-container button {
   border: 2px solid white;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
